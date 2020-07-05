@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Registration Form </title>
+    
+</head>
+<body>
+    <center><img  src="images\Saylani-logo.png"></center>
+    <center><h2 style="color: blue;"><u>STUDENT REGISTRATION FORM</u></h1></center>
+
+    <form action="form.html" id="form1">
+        <p>
+        FIRST NAME <input type="text" placeholder="Enter First Name" name="First Name" id="Fname" maxlength="30""></>(max 30 characters a-z and A-Z)<br><br> 
+        LAST NAME <input type="text" placeholder="Enter Last Name" name="Last Name" id="Lname" maxlength="30">(max 30 characters a-z and A-Z)<br><br>
+        DATE OF BIRTH <input type="date"><br><br>
+        EMAIL ID <input type="email" placeholder="Enter email address" required><br><br>
+        MOBILE NO <input type="number" placeholder="Enter mobile number"  max="10">(10 digit number)<br><br>
+        GENDER          
+        MALE <input type="radio" name="Gender" id="Male">
+        FEMALE <input type="radio" name="Gender" id="Female"><br><br>
+        ADDRESS <textarea style="width: 250px; height: 50px;vertical-align: -0.45in;"></textarea><br><br>
+        CITY <input type="text" placeholder="Enter city name" maxlength="30">(max 30 characters a-z and A-Z)<br><br>
+        PINCODE <input type="number" placeholder="Enter pincode" min="0" max="6">(max 6 digits)<br><br>
+        STATE <input type="text" placeholder="Enter state" maxlength="30">(max 30 characters a-z and A-Z)<br><br>
+        COUNTRY <input type="text" placeholder="Enter country"><br><br>
+        
+        HOBBIES
+        
+        Drawing <input type="checkbox">
+        Singing <input type="checkbox">
+        Dancing <input type="checkbox">
+        Sketching <input type="checkbox"><br>
+        Others <input type="checkbox"> <input type="text"><br><br>
+    
+    </p>
+        <table style="width: 2in; height: 2in;"> 
+            
+            <center><tr>
+                <th>QUALIFICATION</th>
+                <th>S No Examination</th>
+                <th>Board </th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+             </tr> </center>
+             <tr>
+                 <td></td>
+                 <td>1.  Class X</td>
+                
+               
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="number" ></td>
+                <td><input type="number"></td>
+              </tr>
+              <tr>
+                  <td></td>
+                <td>2.  Class XII</td>
+               <td><input type="text" maxlength="10"></td>
+               <td><input type="number" ></td>
+               <td><input type="number"></td>
+             </tr>
+             <tr>
+                 <td></td>
+                <td>3.   Graduation</td>
+               <td><input type="text" maxlength="10"></td>
+               <td><input type="number" name="" id=""></td>
+               <td><input type="number"></td>
+             </tr>
+             <tr style="width: 50in;">
+                 <td></td>
+                <td>4.   Masters</td>
+               <td><input type="text" maxlength="10"></td>
+               <td><input type="number" name="" id=""></td>
+               <td><input type="number"></td><br>
+               
+             </tr>
+
+
+        </table>
+        <br><br>
+        <p>
+        COURSES<br>
+        APPLIED FOR &nbsp &nbsp
+
+        BCA <input type="radio">            
+        B.COM <input type="radio">
+        B.SC <input type="radio">
+        B.A <input type="radio">
+    </p>
+
+        
+        <br><br>
+        <center><button type="submit" form="form1" value="Submit">Submit</button></center><br>
+        <center><button type="reset"  form="form1" value="reset">Reset</button></center>
+
+
+
+
+
+    </form>    
+
+    <link rel="stylesheet" href="style.css">
+
+
+</body>
+</html>
